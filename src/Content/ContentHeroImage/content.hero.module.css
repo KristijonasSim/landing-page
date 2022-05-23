@@ -1,0 +1,86 @@
+.image_container{
+  height: 100%;
+  width: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('../../data/Images//Image.jpeg');
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5rem;
+}
+
+.image_inner_container{
+  height: 350px;
+  width: 350px;
+  position: relative;
+  background-color: transparent;
+  border-radius: 50%;
+  animation:  spin 20s linear infinite;
+}
+
+.envelope{
+  position: absolute;
+  bottom: 65%;
+  height:200px;
+  width: 200px;
+  border-radius: 50%;
+  animation:  spiner 400s linear infinite;
+}
+
+.phone{
+  position: absolute;
+  left: 65%;
+  height:100px;
+  width: 100px;
+  border-radius: 50%;
+  animation:  spiner 400s linear infinite;
+}
+
+.calendar{
+  position: absolute;
+  top: 65%;
+  height:100px;
+  width: 100px;
+  border-radius: 50%;
+  animation:  spiner 400s linear infinite;
+}
+
+.target{
+  position: absolute;
+  top: 65%;
+  left: 70%;
+  height:100px;
+  width: 100px;
+  border-radius: 50%;
+  animation:  spiner 400s linear infinite;
+}
+
+@media only screen and (max-width: 1100px){
+  .image_container{
+      margin-top: 3rem;
+      margin-left: 0;
+
+  }
+
+  .envelope{
+
+  }
+}
+
+  @keyframes spin {
+  0%  { transform: rotate(0deg) }
+
+  100%{ transform: rotate(360deg) }
+} 
+ 
+  @keyframes spiner {
+  0%  { transform: rotate(720deg) }
+
+  100%{ transform: rotate(0deg) }
+} 
+ 
+
+
+

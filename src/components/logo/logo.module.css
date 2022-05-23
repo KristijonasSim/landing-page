@@ -1,0 +1,38 @@
+.container{
+ display: flex;
+ align-items: center;
+}
+
+.text{
+  cursor: pointer;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px;
+  font-size:calc(2rem + 20*(100vw - 80.75rem)/2100);
+}
+
+
+
+.logo{
+    object-fit: cover;
+    height: calc(4.5rem + 20*(100vw - 80.75rem)/2100);    
+    cursor: pointer;
+    display: flex;
+    margin-right: 7px
+
+}
+.logo:hover{
+    animation: shake 2s infinite;
+    animation-iteration-count: 1;
+}
+
+
+
+
+
+@keyframes shake {
+  0%  { transform: translate(0,  0)  rotate(0deg); }
+
+  50%{ transform: translate(0, 0)  rotate(180deg); }
+
+  100%{ transform: translate(0, 0)  rotate(360deg); }
+}

@@ -1,0 +1,13 @@
+.links{
+  color: black;
+  cursor: pointer;
+  font-size: 20px;
+  text-transform: capitalize;
+  padding: 16px
+}
+
+.links:hover{
+  color: rgb(152, 158, 160);
+  text-decoration: underline;
+}
+
