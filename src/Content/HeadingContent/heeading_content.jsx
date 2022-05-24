@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './content.module.css'
+import styles from './heading.content.module.css'
 import ContentHeroText from './ContentHeroText/content.hero.text'
 import ContentHeroImage from './ContentHeroImage/content.hero.image'
 const Content = ( ) => {

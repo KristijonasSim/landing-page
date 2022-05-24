@@ -1,5 +1,6 @@
 .navbar{
   height: 80px;
+  width: 100%;
   background: #a7daed;
   transition: all 0.3s ease-in-out;
   position: fixed;

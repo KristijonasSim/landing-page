@@ -1,0 +1,70 @@
+.container{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+.layout{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header{
+  margin-top: 7.5rem;
+  margin-bottom: 7.5rem;
+  text-align: center;
+  font-size: 3.375rem;
+  letter-spacing: 0.3rem;
+  line-height: 1;
+  font-weight: 300;
+  font-family: 'Flamenco';
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+}
+
+.logo{
+  padding: 2.5rem
+}
+
+.sign{
+  margin-top: 7.5rem;
+  margin-bottom: 7.5rem;
+  text-align: center;
+}
+
+.sign h2{
+  text-align: center;
+  font-size: 3.375rem;
+  letter-spacing: 0.3rem;
+  font-family: 'Flamenco';
+  text-transform: capitalize;
+}
+
+.button{
+  padding: 1.25rem 2.5rem;
+  border: none;
+  background-color:transparent;
+  color: #fff;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  text-align: center;
+  background-color: #A7DAED;
+  margin-top: 2rem;
+}
+
+.businesses_icons{
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 7.5rem;
+  margin-bottom: 7.5rem;
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
